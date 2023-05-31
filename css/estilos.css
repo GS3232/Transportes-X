@@ -57,7 +57,7 @@ nav ul li a:hover {
     background-color: rgba(0,0,0,0.3);
 }
 
-nav ul li a.activo {
+nav ul li a .activo {
     background-color: #4c76a5;
 }
 
@@ -87,16 +87,18 @@ h2 {
 }
 
 .columnas {
-    overflow: hidden;
+   display: flex;
+   justify-content: space-between;
 }
 
-.bienvenidos, .testimonios {
+.bienvenidos .testimonios {
     box-sizing: border-box;
 }
 
 .bienvenidos {
     width: 75%;
-    padding-right: 2em;
+    padding-right: 10px;
+ 
 }
 
 .testimonios h2 {
@@ -141,3 +143,4 @@ footer {
     margin-top: 2em;
     text-align: center;
 }
+/* FIN HOME */
