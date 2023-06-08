@@ -144,3 +144,110 @@ footer {
     text-align: center;
 }
 /* FIN HOME */
+
+/* Inicio NOSOTROS */
+.historia p{
+    font: size 12px; 
+}
+.personas {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.persona{
+    width: 18%;
+    border:1px solid gray ;
+    border-radius: 0.25em;
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+}
+.persona{
+    text-align: center;
+}
+.persona img{
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0 , 0, 0, 0.5);
+    margin: 0.8em 0 1em;
+    max-width: 70%;
+}
+
+.persona h5,
+.persona h6{
+     text-align: center;
+     font-weight: normal;
+     color: #2e64a1;
+     margin: 0;
+}
+.persona h5{
+    font-size: 0.9em;
+}
+.persona h6{
+    font-size: 0.8em;
+    font-style: italic;
+}
+.persona p{
+    font-size: 0.7em;
+    color: #444;
+    margin: 0 1em 1em;
+}
+.persona :first-child{
+    margin-left: 0;
+}
+/* FIN DE NOSOTROS */
+
+/* INICIO SERVICIOS  */
+
+.servicio{
+    border: 1px solid #ccc ;
+    border-radius: 0.7em;
+    margin: 1em 0 ;
+    padding: 1em;
+    overflow: hidden;
+
+}
+
+.servicio .info{
+    width: 75%;
+}
+
+.servicio .info h4{
+    color: #2e64a1 ;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 0 0 1em;
+    font-style: italic;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom: 0.5em ;
+
+}
+
+.servicio .info p {
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+
+.servicios img{
+    border-radius: 0.8em ;
+
+}
+
+.servicio:nth-child(even)  img{
+    float:right;
+    margin: 0 0 0 1em;
+
+}
+.servicio:nth-child(even) .info{
+    float: left;
+
+}
+.servicio:nth-child(odd) img{
+    float: left;
+    margin: 0 1em 0 0;
+
+}
+.servicio:nth-child(odd) .info{
+    float: right;
+}
