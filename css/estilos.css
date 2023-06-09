@@ -255,3 +255,85 @@ footer {
 /* fin de servios */
 
 /* inicio galeria */
+.galeria img{
+    width: 18%;
+    border: 1px solid #ddd;
+    padding: 0.3em;
+    box-sizing: border-box;
+    margin-bottom: 28px;
+    margin: right 2%; 
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* fin de galeria */
+/* INICIO CONTACTO */
+
+
+.contacto div{
+    width: 100%;
+}
+.contacto {
+    display: flex;
+    gap: 24px;
+}
+.datos p{
+    font-size: 14px;
+}
+.datos ul li{
+    font-size: 13px;
+}
+.formulario p{
+    display: flex;
+}
+.formulario p label{
+    min-width: 80px;
+    display: flex;
+    
+
+} 
+.formulario p input,
+.formulario p textarea{
+    width: 100%;
+
+}
+
+.formulario p input,
+.formulario p textarea{
+    background: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.formulario textarea{
+    resize: none;
+    height: 150px;
+}
+
+.formulario p:nth-child(4){
+
+    align-items: start;
+}
+
+.formulario input[type="submit"] {
+    background:#6da9ed ;
+    box-shadow: 0 0 10px rgba(0 , 0, 0, 0.4);
+    color: white;
+    font-size: 16px;
+    padding: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 6.5rem;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover{
+    background-color:#2e64a1 ;
+}
+
+/*  FIN DE CONTACTO */
