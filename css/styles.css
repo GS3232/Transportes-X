@@ -1,0 +1,25 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para el encabezado */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #35424a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
